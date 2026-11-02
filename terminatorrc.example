@@ -1,0 +1,12 @@
+# Copy to ~/.terminatorrc to change Terminator's keys.
+# Format:  bind ACTION KEY      (KEY = Ctrl/Shift/Alt + a key name)
+#
+# Actions: cursor-left cursor-right line-start line-end history-prev
+#          history-next delete-to-start delete-to-end delete-word clear-screen
+#          eof copy paste interrupt suspend history-search complete
+#          new-tab close-tab next-tab prev-tab
+
+bind clear-screen Ctrl+Shift+L
+bind delete-word  Alt+Backspace
+bind next-tab     Ctrl+Shift+Right
+bind prev-tab     Ctrl+Shift+Left
